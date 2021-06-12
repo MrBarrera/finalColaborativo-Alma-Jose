@@ -6,9 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Genero extends Model
 {
-    protected $guarded = ['idgenero'];
-    protected $primaryKey = 'idgenero';
-    public $timestamps = false;
+    protected $guarded = ['id_genero'];
+    protected $primaryKey = 'id_genero';
     protected $table = 'genero';
-
 }

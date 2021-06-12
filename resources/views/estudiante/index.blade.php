@@ -41,11 +41,11 @@
 
                     <td class="d-flex justify-content-around">
                         <a class="btn btn-danger" href="javascript:void(0)" onclick="event.preventDefault();
-                            document.getElementById('delete-cliente-{{$cliente->idcliente}}').submit();">
+                            document.getElementById('delete-estudiante-{{$cliente->idcliente}}').submit();">
                             Eliminar
                         </a>
                         <form id="delete-cliente-{{$cliente->idcliente}}"
-                              action="{{route('clientes.destroy',['cliente'=>$cliente->idcliente])}}" method="POST"
+                              action="{{route('clientes.destroy',['estudiante'=>$cliente->idcliente])}}" method="POST"
                               style="display: none;">
                             @csrf
                             @method('DELETE')

@@ -18,8 +18,6 @@ Route::get('/', function () {
 })->name('welcome');
 
 
-Route::resource('categorias', 'ControllerCategoria');
-Route::resource('generos', 'ControllerGenero');
-Route::resource('departamentos', 'ControllerDepartamento');
-Route::resource('clientes', 'ControllerCliente');
+Route::resource('genero', 'ControllerGenero');
+Route::resource('estudiante', 'ControllerEstudiante');
 

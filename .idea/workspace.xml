@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5913837-cef0-467e-a91b-1471c1c9eef6" name="Default Changelist" comment="" />
+    <list default="true" id="e5913837-cef0-467e-a91b-1471c1c9eef6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ControllerEstudiante.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Categoria.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Cliente.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Departamento.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Genero.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ControllerCategoria.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ControllerCliente.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ControllerDepartamento.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ControllerGenero.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ControllerGenero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CategoriaPostRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ClientePostRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/EstudiantePostRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/DepartamentoPostRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/GeneroPostRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/GeneroPostRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categoria/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categoria/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cliente/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/estudiante/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cliente/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/estudiante/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/departamento/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/departamento/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/genero/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/genero/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/genero/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/genero/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +36,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -122,7 +151,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fel502" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -149,10 +178,35 @@
       <workItem from="1619234370475" duration="714000" />
       <workItem from="1619305909268" duration="12000" />
       <workItem from="1619305922843" duration="4192000" />
+      <workItem from="1623529929994" duration="2115000" />
+      <workItem from="1623532652698" duration="4878000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/layout.blade.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

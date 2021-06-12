@@ -24,38 +24,19 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Clientes
+                            Estudiantes
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="{{route('clientes.create')}}">Ingreso de Clientes</a></li>
-                            <li><a class="dropdown-item" href="{{route('clientes.index')}}">Listado de Clientes</a></li>
+                            <li><a class="dropdown-item" href="{{route('estudiante.create')}}">Ingreso de Estudiantes</a></li>
+                            <li><a class="dropdown-item" href="{{route('estudiante.index')}}">Listado de Estudiantes</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Departamentos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="{{route('departamentos.create')}}">Ingreso de Departamentos</a></li>
-                            <li><a class="dropdown-item" href="{{route('departamentos.index')}}">Listado de Departamentos</a></li>
-                        </ul>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Generos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="{{route('generos.create')}}">Ingreso de Generos</a></li>
-                            <li><a class="dropdown-item" href="{{route('generos.create')}}">Listado de Generos</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Categoria
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="{{route('categorias.create')}}">Ingreso de Categoria</a></li>
-                            <li><a class="dropdown-item" href="{{route('categorias.index')}}">Listado de Categoria</a></li>
+                            <li><a class="dropdown-item" href="{{route('genero.create')}}">Ingreso de Genero</a></li>
+                            <li><a class="dropdown-item" href="{{route('genero.index')}}">Listado de Genero</a></li>
                         </ul>
                     </li>
                 </ul>

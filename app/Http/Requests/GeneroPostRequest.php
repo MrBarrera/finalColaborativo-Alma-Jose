@@ -23,10 +23,13 @@ class GeneroPostRequest extends FormRequest
      */
     public function rules()
     {
-        return [
-            'descripcion' => [
-                'required'
-            ],
-        ];
+        return
+            ['id_genero' => [
+                'nullable', 'max:45'],
+
+                'descripcion' => [
+                    'required'
+                ]
+            ];
     }
 }
